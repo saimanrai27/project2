@@ -1,0 +1,122 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 16px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+nav {
+    background-color: red;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    width: 100%;
+}
+
+.navigation a:hover {
+    background-color: crimson;
+    color: gold;
+}
+
+.top-image {
+    background-image: url(../img/office2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.top-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.top-text h1 {
+    margin-bottom: 20px;
+}
+
+.top-text a {
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.top-text a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.about-container {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    background-color: #222222;
+}
+
+.about-image img {
+    height: 87vh;
+
+}
+
+.about-text {
+    text-align: right;
+    width: 30%;
+    color: aliceblue;
+}
+
+.about-text h2 {
+    padding-bottom: 18px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+#Teams {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Teams img {
+    height: 300px;
+    width: auto;
+    padding: 10px;
+}
+
+.white1 {
+    background-color: whitesmoke;
+}
+
+.black1 {
+    background-color: black;
+    color: white;
+}
+
+.white1 img {
+    border-radius: 50%;
+}
+
+.black1 img {
+    border-radius: 50%;
+}
